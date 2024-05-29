@@ -1,0 +1,158 @@
+.auto-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  height: 100%;
+}
+
+.left-slider {
+  background-image: url("../assets/Vector.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+  height: 100%;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-slider {
+  width: 50%;
+}
+.left-slider {
+  width: 50%;
+}
+
+.firstimage {
+  display: inline-block;
+  background: #e4fff3;
+  padding: 10px 5px 5px 5px;
+}
+.firstimage img {
+  width: 100%;
+}
+.right-slider h1 {
+  font-size: 42px;
+}
+.review {
+  display: flex;
+  align-items: center;
+  background: #edecf1;
+  padding: 0px 15px 0px 15px;
+  border-radius: 5px;
+}
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.order {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 55px;
+}
+.review img {
+  width: 25px;
+}
+.review p {
+  font-size: 14px;
+}
+.overlap-image img {
+  width: 80%;
+  transform: translateX(100px);
+  padding: 40px;
+}
+@media (max-width: 1330px) {
+  .star {
+    justify-content: start;
+  }
+}
+@media (max-width: 1000px) {
+  .right-slider h1 {
+    font-size: 36px;
+  }
+  .order {
+    gap: 15px;
+  }
+  .overlap-image img {
+    width: 100%;
+    transform: translateX(50px);
+  }
+}
+@media (max-width: 800px) {
+  .right-slider h1 {
+    font-size: 30px;
+  }
+  /* .order {
+    flex-direction: column;
+  } */
+}
+@media (max-width: 800px) {
+  .right-slider h1 {
+    font-size: 24px;
+  }
+  .order img {
+    width: 90px;
+  }
+  .review img {
+    width: 18px;
+  }
+  .star img {
+    width: 15px;
+  }
+  .review p {
+    font-size: 8px;
+  }
+  .arranged2 p {
+    font-size: 10px;
+  }
+  .review {
+    padding: 0px 5px 0px 5px;
+  }
+}
+@media (max-width: 620px) {
+  .right-slider h1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 510px) {
+  .order {
+    flex-direction: column;
+  }
+  .overlap-image img {
+    width: 100%;
+    transform: translateX(0px);
+  }
+}
+@media (max-width: 500px) {
+  .right-slider h1 {
+    font-size: 12px;
+  }
+  .firstimage img {
+    width: 100%;
+    padding: 0px;
+  }
+  .overlap-image img {
+    width: 100%;
+    transform: translateX(0px);
+  }
+  .slider {
+    flex-direction: column;
+  }
+  .order {
+    flex-direction: row;
+  }
+  .right-slider {
+    width: 100%;
+  }
+  .left-slider {
+    width: 100%;
+  }
+}
