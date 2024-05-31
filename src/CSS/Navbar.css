@@ -118,6 +118,7 @@
   .nav-elements ul {
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
   .nav-elements ul li {
@@ -163,7 +164,7 @@ ul.df {
   border-radius: 10px;
   margin-top: 10px;
   z-index: 1;
-  position: absolute;
+  /* position: absolute; */
 }
 ul.df li {
   padding: 5px;
